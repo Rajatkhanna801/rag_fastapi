@@ -1,0 +1,37 @@
+# Ignore environment variables file
+.env
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment
+venv/
+env/
+jsjj.md
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore logs and cache
+*.log
+logs/
+*.sqlite3
+db.sqlite3
+
+# Ignore compiled files
+*.so
+*.dll
+*.dylib
+
+# Ignore media and static files (optional)
+media/
+static/
+
+# Ignore Docker-related files (if using Docker)
+docker-compose.override.yml
+.pytest_cache
