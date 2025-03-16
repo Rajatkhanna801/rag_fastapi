@@ -96,48 +96,6 @@ alembic upgrade head
 uvicorn main:app --reload
 ```
 
-## Project Structure
-```
-├── app/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── database.py
-│   ├── config.py
-│   ├── models/
-│   │   ├── __init__.py
-│   │   ├── user.py
-│   │   └── role.py
-│   ├── schemas/
-│   │   ├── __init__.py
-│   │   ├── user.py
-│   │   └── role.py
-│   ├── api/
-│   │   ├── __init__.py
-│   │   ├── v1/
-│   │   │   ├── endpoints/
-│   │   │   │   ├── user.py
-│   │   │   │   └── auth.py
-│   │   │   └── __init__.py
-│   │   └── dependencies.py
-│   ├── core/
-│   │   ├── security.py
-│   │   └── config.py
-│   ├── utils/
-│   │   └── helpers.py
-├── tests/
-│   ├── __init__.py
-│   ├── conftest.py
-│   ├── test_users.py
-│   └── test_auth.py
-├── alembic/
-│   ├── versions/
-│   └── alembic.ini
-├── requirements.txt
-├── README.md
-├── .env
-└── .gitignore
-```
-
 ## Running Tests
 
 Run all tests:
